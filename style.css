@@ -1,0 +1,26 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.field_container{
+  display: flex;
+  margin:8px;
+  background-color: #F7F7F7;
+  border: 1px solid #D7D7D7;
+  padding: 8px;
+}
+
+.mr-2{
+	margin-right: 8px;
+}
+
+#myCanvas, #downloadButton{
+	display: none;
+}
+
+#myCanvas{
+	margin:8px;
+	margin-top:24px;
+	padding: 8px;
+}

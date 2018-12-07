@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Profile Image Generator</title>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta content="utf-8" http-equiv="encoding">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+  <script type='text/javascript' src="script.js"></script>
+  </head>
+  
+  <body>
+    <div class="field_container">
+      <input type="text" id="name" class="mr-2"/>
+      <input type="color" name="bgcolor" value="#3E59AD" id="bgcolor" class="mr-2"/> 
+      <button id="createImageBtn" onclick="createImage()" class="mr-2">Create Image</button> 
+	  <button id="downloadButton">Download Image</button> 
+     </div>
+    <canvas id="myCanvas" width="512" height="512"></canvas>
+  </body>
+</html>      
